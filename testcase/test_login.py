@@ -20,4 +20,5 @@ class TestLogin(BaseUtil):
             lp.login_advantech(user_name, password)
             if index == 1:
                 self.assertEqual(lp.get_except_result(), "退出")
+                print("git test")
 
