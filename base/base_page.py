@@ -48,3 +48,6 @@ class BasePage:
 class Xiaohuhaoniu:
     def just_test(self):
         print("this is a test word")
+
+
+
