@@ -18,6 +18,7 @@ class TestLogin(BaseUtil):
             """
             lp = LoginPage(self.dr)
             lp.login_advantech(user_name, password)
+            print("love myself")
             if index == 1:
                 self.assertEqual(lp.get_except_result(), "退出")
                 print("git test")

@@ -32,6 +32,7 @@ class BasePage:
         sel.select_by_visible_text(value)
 
     def wait(self, sec):
+        print("I`m waiting")
         self.dr.implicitly_wait(sec)
 
     # 鼠标悬浮
@@ -42,3 +43,8 @@ class BasePage:
     # 获取文本的值
     def get_value(self, loc):
         return self.locator_element(loc).text
+
+
+class Xiaohuhaoniu:
+    def just_test(self):
+        print("this is a test word")
