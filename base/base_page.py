@@ -32,7 +32,6 @@ class BasePage:
         sel.select_by_visible_text(value)
 
     def wait(self, sec):
-        print("I`m waiting")
         self.dr.implicitly_wait(sec)
 
     # 鼠标悬浮
@@ -48,8 +47,3 @@ class BasePage:
 class Xiaohuhaoniu:
     def just_test(self):
         print("this is a test word")
-
-
-
-
-# 就是要不同！
